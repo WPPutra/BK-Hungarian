@@ -101,7 +101,6 @@ df_final['target'] = y
 st.set_page_config(
   page_title = "Hungarian Heart Disease",
   page_icon = ":heart:"
-  layout="wide",  # Set layout to wide for a more spacious design
   initial_sidebar_state="expanded",  # Expand the sidebar by default
 )
 custom_style = """
