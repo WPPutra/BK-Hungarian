@@ -101,6 +101,8 @@ df_final['target'] = y
 st.set_page_config(
   page_title = "Hungarian Heart Disease",
   page_icon = ":heart:"
+  layout="wide",  # Set layout to wide for a more spacious design
+  initial_sidebar_state="expanded",  # Expand the sidebar by default
 )
 custom_style = """
     body {
@@ -140,6 +142,8 @@ custom_style = """
         background-color: #3498db;
     }
 """
+st.markdown(f'<style>{custom_style}</style>', unsafe_allow_html=True)
+
 st.title("Hungarian Heart Disease")
 st.write(f"**_Model's Accuracy_** :  :green[**{accuracy}**]% (:red[_Do not copy outright_])")
 st.write("")
