@@ -1,9 +1,7 @@
 # Heart-disease-hungarian
 
-Project untuk mata kuliah BK Data Science
+Project Bimbingan Karir Data Science
 Dataset yang digunakan berasal dari link : https://archive.ics.uci.edu/dataset/45/heart+disease
 
-dataset yang dipakai bernama "hungarian.data"
 
-Repository ini untuk di deploy menggunakan streamlit, dan hasilnya adalah ini
-https://heart-disease-hungarian-12478.streamlit.app/
+Repository ini untuk di deployment menggunakan streamlit, Link Streamlit : https://bk-hungarian-wisnu.streamlit.app/

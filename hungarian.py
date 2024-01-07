@@ -102,6 +102,45 @@ st.set_page_config(
   page_title = "Hungarian Heart Disease",
   page_icon = ":heart:"
 )
+custom_style = """
+    body {
+        background-color: #3498db;
+        color: #ffffff;
+    }
+    .sidebar .sidebar-content {
+        background-color: #2980b9;
+    }
+    .Widget>label {
+        color: #ffffff;
+    }
+    .stButton>button {
+        background-color: #2ecc71;
+        color: #ffffff;
+    }
+    .stButton>button:hover {
+        background-color: #27ae60;
+    }
+    .stTabs .stTab {
+        color: #ffffff;
+    }
+    .stTabs .stTab:hover {
+        color: #2ecc71;
+    }
+    .stProgress .stProgressText {
+        color: #ffffff;
+    }
+    .stProgress .stProgressBar {
+        background-color: #27ae60;
+    }
+    .stTable thead th {
+        background-color: #2980b9;
+        color: #ffffff;
+    }
+    .stTable tbody td {
+        background-color: #3498db;
+    }
+"""
+st.markdown(f'<style>{custom_style}</style>', unsafe_allow_html=True)
 
 st.title("Hungarian Heart Disease")
 st.write(f"**_Model's Accuracy_** :  :green[**{accuracy}**]% (:red[_Do not copy outright_])")
